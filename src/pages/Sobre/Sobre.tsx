@@ -1,10 +1,10 @@
-import CidadeFloripa from "../../assets/sobre-florianopolis.jpg";
+import CidadeFloripa from "../../assets/estrada-florianopolis.jpg";
 import "./style.css";
 
 export function Sobre() {
   return (
-    <section className="sobreSection">
-      <img src={CidadeFloripa} alt="Cidade de Florianópolis" />
+    <section className="sobreSection" id="sobre">
+      <img src={CidadeFloripa} alt="Cidade de Florianópolis" loading="lazy" />
       <div>
         <h1>Sobre</h1>
         <h3>O que Floripa tem de bom?</h3>
