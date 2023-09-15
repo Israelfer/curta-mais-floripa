@@ -1,15 +1,18 @@
-import { Footer } from "./components/Footer/Footer";
-import { Header } from "./components/Header/Header";
-import { Sobre } from "./pages/Sobre/Sobre";
+import { BrowserRouter, Routes, Route } from "react-router-dom";
+import { Inicio } from "./pages/Inicio/Inicio";
+import { Praias } from "./pages/Praias";
+import { NoPage } from "./pages/NoPage";
 
-function App() {
+export function App() {
   return (
     <>
-      <Header />
-      <Sobre />
-      <Footer />
+      <BrowserRouter>
+        <Routes>
+          <Route path="/" element={<Inicio />} />
+          <Route path="praias" element={<Praias />} />
+          <Route path="*" element={<NoPage />} />
+        </Routes>
+      </BrowserRouter>
     </>
   );
 }
-
-export default App;
