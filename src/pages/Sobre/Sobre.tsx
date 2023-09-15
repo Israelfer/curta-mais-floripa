@@ -15,9 +15,21 @@ export function Sobre() {
           tantas as atrações, pode pintar a dúvida de quem vem pela primeira
           vez: o que fazer em Floripa?
         </p>
-        <h4>
-          Encontre aqui as melhores informações sobre as praias de Floripa
-        </h4>
+        <p>
+          Algumas opções: Praias paradisíacas, lagoas, dunas e trilhas em meio à
+          Mata Atlântica. Em Floripa tem também casario colonial, sítios
+          arqueológicos, opções variadas de esportes e muito agito. Bares,
+          restaurantes e boates dominam o Canto da Lagoa, o Canto dos Araçás, o
+          Centrinho, e a Avenida das Rendeiras, o Caminho para a Praia Mole.
+        </p>
+        <h4>NO VERÃO...</h4>
+        <p>
+          É a época mais esperada para ir a Florianópolis e aproveitar as
+          praias! Entre os meses de: dezembro, janeiro, fevereiro e março.
+          Durante o verão, tudo fica muito propício para curtir o sol e o mar. A
+          temperatura fica na casa dos 30°C e sempre faz muito calor.
+        </p>
+        <h4>Continue explorando e conhendo mais de Floripa!</h4>
       </div>
     </section>
   );

@@ -7,9 +7,9 @@ export function Navbar() {
         <li>
           <a href="/">Início</a>
         </li>
-        <li>
+        {/* <li>
           <a href="#sobre">Sobre</a>
-        </li>
+        </li> */}
         <li>
           <Link to="/praias">Praias</Link>
         </li>

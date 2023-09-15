@@ -7,9 +7,12 @@ export function Praias() {
     <>
       <Navbar />
       <section>
-        <div>
+        <div className="title">
           <h1>Praias em Floripa</h1>
-          <p>Veja detalhes de cada praia e saiba como curtir ao máximo!</p>
+          <p>
+            <i>Veja detalhes de cada praia e saiba como curtir ao máximo!</i>
+          </p>
+          <hr />
         </div>
         <div></div>
       </section>

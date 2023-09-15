@@ -10,11 +10,11 @@ export function Header() {
           <span>Curta mais</span>
           <img src="" alt="" />
         </div>
-        <h1>Floripa</h1>
+        <h1 className="floripa">Floripa</h1>
       </div>
       <div>
-        <a href="/praias">
-          <button>Saiba mais</button>
+        <a href="#sobre">
+          <button className="btnSaibaMais">Saiba mais</button>
         </a>
         <hr />
       </div>
