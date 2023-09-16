@@ -1,15 +1,13 @@
 import { Link } from "react-router-dom";
+import "./index.css";
 
 export function Navbar() {
   return (
     <nav>
       <ul>
         <li>
-          <a href="/">Início</a>
+          <Link to="/">Início</Link>
         </li>
-        {/* <li>
-          <a href="#sobre">Sobre</a>
-        </li> */}
         <li>
           <Link to="/praias">Praias</Link>
         </li>
