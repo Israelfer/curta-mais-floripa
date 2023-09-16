@@ -1,5 +1,5 @@
 import CidadeFloripa from "../../assets/estrada-florianopolis.jpg";
-import "./style.css";
+import "./Style.css";
 
 export function Sobre() {
   return (
