@@ -1,6 +1,6 @@
 import { Footer } from "../../components/Footer/Footer";
 import { Navbar } from "../../components/Navbar/Navbar";
-import "./style.css";
+import "./Style.css";
 
 export function Praias() {
   return (
