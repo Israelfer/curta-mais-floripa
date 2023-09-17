@@ -1,4 +1,5 @@
 # Recursos GCP
+- Cloud Run
 - Banco Cloud SQL (MySQL)
 - Secret: curta-praia-database-name
 - Secret: curta-praia-database-username
