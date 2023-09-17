@@ -1,0 +1,6 @@
+gcp:
+  secret:
+    database-name: curta-praia-database-name
+    username: curta-praia-database-username
+    password: curta-praia-database-password
+    instance-connection-name: curta-praia-instance-connection-name

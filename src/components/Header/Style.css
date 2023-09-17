@@ -11,7 +11,7 @@ header {
 header::after {
   content: "";
   background-image: linear-gradient(rgba(0, 0, 0, 0.527), rgba(0, 0, 0, 0.7)),
-    url("../../assets/mar-florianopolis.jpg");
+    url("../../assets/mar-florianopolis-2.jpg");
   background-size: cover;
   background-position: center;
   top: 0;
