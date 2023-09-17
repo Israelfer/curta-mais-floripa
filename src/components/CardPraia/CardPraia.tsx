@@ -6,12 +6,16 @@ interface CardProps {
 
 const Card = ({ dataApi }: CardProps) => {
   const mainImage = dataApi.images.find((image) => image.isMainImage == true);
-  console.log("mainImage ->>>" + mainImage);
   return (
     <div className="cardItem">
       {mainImage && (
         <>
-          <img src={mainImage.url} alt={dataApi.name} className="mainImage" />
+          <img
+            src={mainImage.url}
+            alt={dataApi.name}
+            className="mainImage"
+            loading="lazy"
+          />
         </>
       )}
       <div>

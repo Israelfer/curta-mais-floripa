@@ -32,7 +32,7 @@ export function Praias() {
           </p>
           <hr />
         </section>
-        <main>
+        <main className="main">
           {isLoading && <p>Carregando</p>}
           {!data.length && !isLoading && (
             <div>
