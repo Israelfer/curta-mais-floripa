@@ -1,0 +1,38 @@
+.footer {
+    height: 200px;
+    background-color: #313131;
+}
+
+.social_list {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    list-style: none;
+}
+
+.social_list {
+    margin: 0 1em;
+    padding: 10px;    
+}
+
+.social_list {
+    font-size: 1.5em;
+    cursor: pointer;
+    /* color: #fff; */
+}
+
+.social_list li {
+    padding: 10px;
+}
+
+a:hover {
+    color: orange;
+    text-decoration: underline;
+    text-decoration-color: orange;
+    transition: 0.2s;
+    text-underline-offset: 10px;
+  }
+
+.info_social {
+    color: #fff;
+}

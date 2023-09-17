@@ -1,25 +1,24 @@
 import { FaFacebook, FaInstagram, FaLinkedin, FaWhatsapp } from 'react-icons/fa';
-import './index.css';
+import './Style.css';
 
-function Footer() {
+export function Footer() {
   return (
    <footer className='footer'>
     <ul className='social_list'>
-      <li>
-        <FaFacebook />
+      <li> <a href="icon-redesocias"><FaFacebook/></a>
         </li>
-      <li>
-        <FaInstagram />
-      </li>
-      <li>
-        <FaLinkedin/>
-      </li>
-      <li>
-        <FaWhatsapp/>
-      </li>
+        <li> <a href="icon-redesocias"><FaInstagram /></a>
+        </li>
+        <li> <a href="icon-redesocias"><FaLinkedin/></a>
+        </li>
+        <li> <a href="icon-redesocias"><FaWhatsapp /></a>
+        </li>
     </ul>
+    <div className='info_social'>
+      <h3>thiago</h3>
+    </div>
    </footer>
   );
 }
 
-export default Footer
+
