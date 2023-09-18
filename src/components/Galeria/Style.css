@@ -1,0 +1,21 @@
+.galleryContent img {
+  object-fit: cover;
+  border-radius: 10px;
+}
+
+.gallery {
+  display: flex;
+  flex-direction: column;
+}
+
+.mainImg {
+  width: 500px;
+  height: 300px;
+  object-fit: cover;
+}
+
+.normalImg {
+  width: 240px;
+  height: 100%;
+  object-fit: cover;
+}
