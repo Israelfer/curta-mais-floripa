@@ -47,3 +47,9 @@ hr {
   color: #fe9900;
   transition: 0.3s;
 }
+
+@media (max-width: 700px) {
+  .floripa {
+    font-size: 4rem;  
+  }
+}

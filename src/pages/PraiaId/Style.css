@@ -9,7 +9,7 @@
 }
 
 .content {
-  /* max-width: 600px; */
+  width: 600px;
   display: flex;
   flex-direction: column;
   gap: 20px;
@@ -35,4 +35,18 @@
 .links {
   color: rgb(72, 72, 72);
   offset: 2px;
+}
+
+@media (max-width: 700px) {
+  .mainPraiaId {
+    flex-direction: column-reverse;
+  }
+
+  .mainPraiaId {
+    flex-wrap: wrap;
+  }
+
+  .content {
+    width: 350px;
+  }
 }
