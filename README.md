@@ -38,6 +38,7 @@ Rode a aplicação localmente
 ## Tecnologias 🛠️
 
 _Front-end:_ React (create-react-app), CSS, TypeScript, Axios, React-Icons
+
 _Back-end:_ Java, MySQL
 
 _Performance Test:_ Google Lighthouse
