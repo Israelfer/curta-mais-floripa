@@ -26,6 +26,13 @@ hr {
   width: 100px;
 }
 
+.subtitle {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  align-items: center;
+}
+
 .floripa {
   font-size: 7rem;
 }
@@ -50,6 +57,6 @@ hr {
 
 @media (max-width: 700px) {
   .floripa {
-    font-size: 4rem;  
+    font-size: 4rem;
   }
 }

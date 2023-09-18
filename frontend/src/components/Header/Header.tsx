@@ -1,5 +1,6 @@
 import { Navbar } from "../Navbar/Navbar";
 import "./Style.css";
+import favicon from "../../assets/favicon.png";
 
 export function Header() {
   return (
@@ -7,8 +8,10 @@ export function Header() {
       <Navbar />
       <div>
         <div>
-          <span>Curta mais</span>
-          <img src="" alt="" />
+          <div className="subtitle">
+            <img src={favicon} alt="" width="40px" />
+            <span>Curta mais</span>
+          </div>
         </div>
         <h1 className="floripa">Floripa</h1>
       </div>
