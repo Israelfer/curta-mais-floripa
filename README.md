@@ -12,7 +12,7 @@ Projeto desenvolvido em grupo durante o curso de Análise e Desenvolvimento no S
 
 ![Tela 2](./images/print2.jpg?raw=true "screenshot")
 
-![Tela 3](./images/print2.jpg?raw=true "screenshot")
+![Tela 3](./images/print3.jpg?raw=true "screenshot")
 
 ## Rodando o projeto ⚙️
 
