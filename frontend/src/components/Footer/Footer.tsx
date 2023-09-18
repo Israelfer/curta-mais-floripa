@@ -5,30 +5,31 @@ import {
   FaWhatsapp,
 } from "react-icons/fa";
 import "./Style.css";
+import { Link } from "react-router-dom";
 
 export function Footer() {
   return (
     <footer className="footer">
       <ul className="social_list">
         <li>
-          <a href="#">
+          <Link to="#">
             <FaFacebook />
-          </a>
+          </Link>
         </li>
         <li>
-          <a href="#">
+          <Link to="#">
             <FaInstagram />
-          </a>
+          </Link>
         </li>
         <li>
-          <a href="#">
+          <Link to="#">
             <FaLinkedin />
-          </a>
+          </Link>
         </li>
         <li>
-          <a href="#">
+          <Link to="#">
             <FaWhatsapp />
-          </a>
+          </Link>
         </li>
       </ul>
 

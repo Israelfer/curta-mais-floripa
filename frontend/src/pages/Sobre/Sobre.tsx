@@ -7,6 +7,10 @@ export function Sobre() {
       <img src={CidadeFloripa} alt="Cidade de Florianópolis" loading="lazy" />
       <div>
         <h1>Sobre</h1>
+        <p>
+          A cidade de Florianópolis é a capital do estado de Santa Catarina, com
+          54 km de comprimento.
+        </p>
         <h3>O que Floripa tem de bom?</h3>
         <p>
           Florianópolis tem encantos que atraem turistas do mundo inteiro:
