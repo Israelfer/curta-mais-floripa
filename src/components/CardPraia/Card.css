@@ -1,28 +1,21 @@
-.cardItem {
-  background-color: #ffffff;
-  /* border: 1px solid black;
-  border-radius: 4px;
-  max-width: 400px;
-  padding: 12px 12px 7px 23px; */
-  transition: 0.5s;
+.card {
+  width: 350px;
 }
 
-/* .cardItem:hover {
-  box-shadow: 0 0 1em rgb(112, 112, 112);
-} */
-
-.cardItem button {
-  border: none;
-  background-color: transparent;
-  position: relative;
-  left: 90%;
-  top: 20%;
-  padding-left: 5px;
+.btnCard {
+  background-color: rgb(18, 18, 18);
+  color: #fff;
+  border: solid #fff;
+  border-radius: 25px;
+  padding: 10px 30px;
+  margin: 5px 0;
+  font-weight: bold;
+  transition: 0.3s ease-in-out;
 }
 
-.trashIcon {
-  width: 20px;
+.btnCard:hover {
   cursor: pointer;
+  color: orange;
 }
 
 .cardTitle {
@@ -30,42 +23,6 @@
   font-size: 20px;
   font-weight: 700;
   line-height: 150%;
-}
-
-.cardAddress {
-  font-size: 16px;
-  color: #3f3f46;
-  margin-top: 22px;
-  margin-bottom: 26px;
-}
-
-.tags {
-  display: flex;
-  flex-wrap: wrap;
-  gap: 16px;
-  margin-bottom: 20px;
-}
-
-.tagsItem {
-  background-color: #f2ec54;
-  border-radius: 99px;
-  display: flex;
-  align-items: center;
-  gap: 12px;
-  padding: 7px 10px;
-  font-size: 16px;
-  min-width: 130px;
-}
-
-.tagsItem img {
-  width: 18px;
-}
-
-.tagsItem input {
-  border: 1px solid #d4d4d8;
-  border-radius: 4px;
-  width: 85px;
-  padding: 1px 2px;
 }
 
 .feature {
@@ -77,4 +34,11 @@
   height: 200px;
   object-fit: cover;
   border-radius: 15px;
+  opacity: 1;
+  -webkit-transition: 0.3s ease-in-out;
+  transition: 0.3s ease-in-out;
+}
+
+.mainImage:hover {
+  opacity: 0.5;
 }

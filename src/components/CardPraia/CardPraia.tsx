@@ -9,7 +9,7 @@ const Card = ({ dataApi }: CardProps) => {
   const mainImage = dataApi.images.find((image) => image.isMainImage == true);
 
   return (
-    <div className="cardItem">
+    <section className="card">
       {mainImage && (
         <Link to={`/praias/${dataApi.id}`}>
           <img
@@ -22,9 +22,18 @@ const Card = ({ dataApi }: CardProps) => {
       )}
       <div>
         <h3 className="cardTitle">{dataApi.name}</h3>
-        <p>{dataApi.description}</p>
+        <p>
+          {dataApi.description.length > 150
+            ? `${dataApi.description.substring(0, 150)}...`
+            : dataApi.description}
+        </p>
+        <Link to={`/praias/${dataApi.id}`}>
+          <button type="button" className="btnCard">
+            Saiba mais
+          </button>
+        </Link>
       </div>
-    </div>
+    </section>
   );
 };
 

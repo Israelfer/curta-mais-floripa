@@ -14,14 +14,6 @@ export function Galeria({ dataApi }: CardProps) {
           <img src={dataApi.url} alt="" className="normalImg" loading="lazy" />
         </div>
       )}
-      <div>
-        {/* <img
-          src={images.url}
-          alt={dataApi.name}
-          className="mainImage"
-          loading="lazy"
-        /> */}
-      </div>
     </section>
   );
 }
