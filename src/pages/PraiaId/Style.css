@@ -1,0 +1,38 @@
+.mainPraiaId {
+  display: flex;
+  justify-content: center;
+  gap: 50px;
+  min-height: 90vh;
+  padding: 50px 15px;
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+.content {
+  /* max-width: 600px; */
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.content h1 {
+  color: rgb(35, 35, 35);
+  font-size: 40px;
+}
+
+.gallery {
+  max-width: 500px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  padding-top: 20px;
+}
+
+.gallery img {
+  width: 240px;
+}
+
+.links {
+  color: rgb(72, 72, 72);
+  offset: 2px;
+}
