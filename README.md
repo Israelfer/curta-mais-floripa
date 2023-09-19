@@ -14,6 +14,8 @@ Projeto desenvolvido em grupo durante o curso de Análise e Desenvolvimento no S
 
 ![Tela 3](./images/print3.jpg?raw=true "screenshot")
 
+![Tela 4](./images/print4.jpg?raw=true "screenshot")
+
 ## Rodando o projeto ⚙️
 
 Clone o repositório
